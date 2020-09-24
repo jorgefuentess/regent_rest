@@ -15,8 +15,10 @@ import com.regent.servicios.interfaces.IntimacionService;
 import com.regent.servicios.interfaces.PresentacionEntidadService;
 import com.regent.util.interfaces.FileUtil;
 
-@SpringBootApplication(scanBasePackages = {"com.regent"})
-@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+//@SpringBootApplication(scanBasePackages = {"com.regent"})
+@SpringBootApplication
+//@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+
 public class RegentRestApplication extends SpringBootServletInitializer {
   @Autowired
   PresentacionEntidadService peService;

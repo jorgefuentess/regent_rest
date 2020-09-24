@@ -3,9 +3,12 @@ package com.regent.servicios.interfaces;
 import java.text.ParseException;
 import java.util.Collection;
 
+import org.springframework.stereotype.Service;
+
 import com.regent.dtos.PresentacionEntidadDTO;
 import com.regent.negocio.Entidad;
 
+@Service
 public interface PresentacionEntidadService {
   void nuevaPresentacionEntidad(Collection<String> paramCollection, Entidad paramEntidad, String paramString) throws ParseException;
   
