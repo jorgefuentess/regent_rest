@@ -47,7 +47,7 @@ public class Entidad {
   private String instrumentoPersoneria;
   
   @Column(name = "e_mail")
-  private String eMail;
+  private String email;
   
   @Column(name = "telefono")
   private String telefono;
@@ -115,7 +115,7 @@ public class Entidad {
     this.solicitante = solicitante;
     this.caracterSolicitante = caracterSolicitante;
     this.instrumentoPersoneria = instrumentoPersoneria;
-    this.eMail = eMail;
+    this.email = eMail;
     this.telefono = telefono;
     this.institucionHabilitante = institucionHabilitante;
     this.cuit = cuit;
@@ -196,11 +196,11 @@ public class Entidad {
   }
   
   public String geteMail() {
-    return this.eMail;
+    return this.email;
   }
   
   public void seteMail(String eMail) {
-    this.eMail = eMail;
+    this.email = eMail;
   }
   
   public String getTelefono() {

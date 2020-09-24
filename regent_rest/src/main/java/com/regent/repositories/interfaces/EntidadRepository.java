@@ -13,7 +13,7 @@ public interface EntidadRepository extends CrudRepository<Entidad, Integer> {
   
   Entidad findByCuit(Long paramLong);
   
-  Entidad findByEMail(String paramString);
+  Entidad findByEmail(String paramString);
   
   @Query("SELECT e FROM Entidad e ORDER BY e.codigoEntidad desc ")
   Collection<Entidad> getAllEntidadCompleta();
