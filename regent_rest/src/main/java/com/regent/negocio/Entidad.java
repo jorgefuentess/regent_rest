@@ -1,8 +1,6 @@
 package com.regent.negocio;
 
 
-import com.regent.negocio.EstadoEntidad;
-
 import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;

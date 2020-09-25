@@ -83,7 +83,7 @@ public class UsuarioServiceImpl implements UsuarioService
    
    @Transactional
    public UsuarioDTO nuevoUsuario(UsuarioDTO uDTO, String usuario) {
-     Rol rol = (Rol)this.rRepo.findOne(Integer.valueOf(uDTO.getRol()));
+     Rol rol = rRepo.findById(Integer.valueOf(uDTO.getRol())).orElse(new Rol());
      String correo = uDTO.getCorreo().trim();
      
      String nombreUsuario = "";
@@ -92,7 +92,7 @@ public class UsuarioServiceImpl implements UsuarioService
        Object[] org2 = (Object[])org[0];
        nombreUsuario = org2[0].toString().toLowerCase();
      } else if ("ENTIDAD".equals(rol.getNombreRol())) {
-       Entidad e = (Entidad)this.eRepo.findOne(Integer.valueOf(uDTO.getCodEntidad()));
+       Entidad e = eRepo.findById(Integer.valueOf(uDTO.getCodEntidad())).orElse(new Entidad());
        nombreUsuario = e.getCuit().toString();
      } else {
        nombreUsuario = generarNombreUsuario(correo);
@@ -156,7 +156,7 @@ public class UsuarioServiceImpl implements UsuarioService
    
    public void updateUsuario(UsuarioDTO uDTO, String usuario) {
      Boolean cambio = Boolean.FALSE;
-     Usuario usu = (Usuario)this.uRepo.findOne(Integer.valueOf(uDTO.getCodigoUsuario()));
+     Usuario usu = uRepo.findById(Integer.valueOf(uDTO.getCodigoUsuario())).orElse(new Usuario());
      String nombreUsuarioNoSafNiEntidad = "";
      Boolean cambiaMail = Boolean.FALSE;
      Boolean cambiaUsuario = Boolean.FALSE;
@@ -170,7 +170,7 @@ public class UsuarioServiceImpl implements UsuarioService
      } 
      
      if (Integer.valueOf(uDTO.getRol()) != usu.getRol().getCodigoRol()) {
-       Rol rol = (Rol)this.rRepo.findOne(Integer.valueOf(uDTO.getRol()));
+       Rol rol = rRepo.findById(Integer.valueOf(uDTO.getRol())).orElse(new Rol());
        usu.setRol(rol);
        
        if ("SAF".equals(rol.getNombreRol())) {
@@ -179,7 +179,7 @@ public class UsuarioServiceImpl implements UsuarioService
          usu.setNombreUsuario(org2[0].toString().toLowerCase());
          cambiaUsuario = Boolean.TRUE;
        } else if ("ENTIDAD".equals(rol.getNombreRol())) {
-         Entidad e = (Entidad)this.eRepo.findOne(Integer.valueOf(uDTO.getCodEntidad()));
+         Entidad e = eRepo.findById(Integer.valueOf(uDTO.getCodEntidad())).orElse(new Entidad());
          usu.setNombreUsuario(e.getCuit().toString());
          cambiaUsuario = Boolean.TRUE;
        } else if (!"SOLICITANTE".equals(rol.getNombreRol())) {
@@ -201,7 +201,7 @@ public class UsuarioServiceImpl implements UsuarioService
          cambio = Boolean.TRUE;
        } 
      } else if ("ENTIDAD".equals(usu.getRol().getNombreRol())) {
-       Entidad e = (Entidad)this.eRepo.findOne(Integer.valueOf(uDTO.getCodEntidad()));
+       Entidad e = eRepo.findById(Integer.valueOf(uDTO.getCodEntidad())).orElse(new Entidad());
        if (!e.getCuit().toString().equals(usu.getNombreUsuario())) {
          usu.setNombreUsuario(e.getCuit().toString());
          cambiaUsuario = Boolean.TRUE;

@@ -11,14 +11,6 @@ package com.regent.servicios.implementaciones;
  import org.springframework.beans.factory.annotation.Autowired;
  import org.springframework.stereotype.Service;
  
- 
- 
- 
- 
- 
- 
- 
- 
  @Service
  public class ParametroServiceImpl
    implements ParametroService
@@ -42,11 +34,6 @@ package com.regent.servicios.implementaciones;
    }
  
  
- 
- 
- 
- 
-   
    public void nuevoParametro(ParametroDTO pDTO, String usuario) {
      String estado = "";
      if ("Activo".equals(pDTO.getEstado().trim()) || "A".equals(pDTO.getEstado().trim())) {
@@ -72,7 +59,7 @@ package com.regent.servicios.implementaciones;
  
    
    public void updateParametro(ParametroDTO pDTO, String usuario) {
-     Parametro parametro = (Parametro)this.pRepo.findOne(Integer.valueOf(pDTO.getCodigoParametro().intValue()));
+     Parametro parametro = pRepo.findById(Integer.valueOf(pDTO.getCodigoParametro().intValue())).orElse(new Parametro());
      
      parametro.setEstado(pDTO.getEstado().trim());
      parametro.setDescripcion(pDTO.getDescripcion().trim());

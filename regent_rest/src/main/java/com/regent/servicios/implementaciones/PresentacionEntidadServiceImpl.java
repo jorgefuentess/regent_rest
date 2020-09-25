@@ -31,8 +31,6 @@ package com.regent.servicios.implementaciones;
  import org.springframework.beans.factory.annotation.Autowired;
  import org.springframework.stereotype.Service;
  
- 
- 
  @Service
  public class PresentacionEntidadServiceImpl
    implements PresentacionEntidadService
@@ -110,7 +108,7 @@ package com.regent.servicios.implementaciones;
      Collection<PresentacionEntidadDTO> presentacionesDTO = new ArrayList<>();
      Collection<PresentacionEntidad> presentaciones = this.peRepo.getAllPresentacionesByEntidad(codigoEntidad);
      
-     Entidad e = (Entidad)this.eRepo.findOne(codigoEntidad);
+     Entidad e = eRepo.findById(codigoEntidad).orElse(new Entidad());
      
      String nombreArch = (e != null) ? ("solicitu_" + e.getCuit().toString() + ".pdf") : "";
      
@@ -151,7 +149,7 @@ package com.regent.servicios.implementaciones;
  
    
    public void confirmarValidacion(PresentacionEntidadDTO peDTO, String usuario) throws ParseException {
-     PresentacionEntidad pe = (PresentacionEntidad)this.peRepo.findOne(peDTO.getCodigoPresEnt());
+     PresentacionEntidad pe = peRepo.findById(peDTO.getCodigoPresEnt()).orElse(new PresentacionEntidad());
      
      if (pe != null) {
        PresentacionEntidad pe2 = this.peRepo.getUltimaPresentacionValidaByTipoPresentacionAndCuitEntidad(pe.getTipoPresentacion().getCodigoTipoPresentacion(), pe.getEntidad().getCuit());
@@ -207,7 +205,7 @@ package com.regent.servicios.implementaciones;
  
    
    public void rechazarPresentacion(String codigoPresEnt, String usuario) {
-     PresentacionEntidad pe = (PresentacionEntidad)this.peRepo.findOne(Integer.valueOf(codigoPresEnt));
+     PresentacionEntidad pe = peRepo.findById(Integer.valueOf(codigoPresEnt)).orElse(new PresentacionEntidad());
      if (pe != null) {
        pe.setVigente("RE");
        pe.setIfGedo("N/A");
