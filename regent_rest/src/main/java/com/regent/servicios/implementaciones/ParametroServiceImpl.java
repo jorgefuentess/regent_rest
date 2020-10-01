@@ -59,7 +59,7 @@ package com.regent.servicios.implementaciones;
  
    
    public void updateParametro(ParametroDTO pDTO, String usuario) {
-     Parametro parametro = pRepo.findById(Integer.valueOf(pDTO.getCodigoParametro().intValue())).orElse(new Parametro());
+     Parametro parametro = pRepo.findOne(pDTO.getCodigoParametro());
      
      parametro.setEstado(pDTO.getEstado().trim());
      parametro.setDescripcion(pDTO.getDescripcion().trim());

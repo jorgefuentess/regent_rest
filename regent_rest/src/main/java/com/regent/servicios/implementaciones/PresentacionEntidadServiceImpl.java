@@ -108,7 +108,7 @@ package com.regent.servicios.implementaciones;
      Collection<PresentacionEntidadDTO> presentacionesDTO = new ArrayList<>();
      Collection<PresentacionEntidad> presentaciones = this.peRepo.getAllPresentacionesByEntidad(codigoEntidad);
      
-     Entidad e = eRepo.findById(codigoEntidad).orElse(new Entidad());
+     Entidad e = eRepo.findOne(codigoEntidad);
      
      String nombreArch = (e != null) ? ("solicitu_" + e.getCuit().toString() + ".pdf") : "";
      
@@ -149,7 +149,7 @@ package com.regent.servicios.implementaciones;
  
    
    public void confirmarValidacion(PresentacionEntidadDTO peDTO, String usuario) throws ParseException {
-     PresentacionEntidad pe = peRepo.findById(peDTO.getCodigoPresEnt()).orElse(new PresentacionEntidad());
+     PresentacionEntidad pe = peRepo.findOne(peDTO.getCodigoPresEnt());
      
      if (pe != null) {
        PresentacionEntidad pe2 = this.peRepo.getUltimaPresentacionValidaByTipoPresentacionAndCuitEntidad(pe.getTipoPresentacion().getCodigoTipoPresentacion(), pe.getEntidad().getCuit());
@@ -205,7 +205,7 @@ package com.regent.servicios.implementaciones;
  
    
    public void rechazarPresentacion(String codigoPresEnt, String usuario) {
-     PresentacionEntidad pe = peRepo.findById(Integer.valueOf(codigoPresEnt)).orElse(new PresentacionEntidad());
+     PresentacionEntidad pe = peRepo.findOne(Integer.valueOf(codigoPresEnt));
      if (pe != null) {
        pe.setVigente("RE");
        pe.setIfGedo("N/A");

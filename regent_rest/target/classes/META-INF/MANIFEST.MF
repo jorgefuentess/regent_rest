@@ -1,6 +1,10 @@
 Manifest-Version: 1.0
-Build-Jdk-Spec: 14
+Built-By: javiermoreno
+Build-Jdk: 14.0.2
 Implementation-Title: regent_rest
 Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.mm
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/regent_rest/
 Created-By: Maven Integration for Eclipse
 

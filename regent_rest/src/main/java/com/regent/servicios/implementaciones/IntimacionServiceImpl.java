@@ -80,7 +80,7 @@ import com.regent.dtos.IntimacionDTO;
    public void nuevaIntimacion(IntimacionDTO iDTO, String usuario) throws ParseException {
      Intimacion i = new Intimacion();
      
-     Entidad e = eRepo.findById(Integer.valueOf(iDTO.getEntidad())).orElse(new Entidad());
+     Entidad e = eRepo.findOne(Integer.valueOf(iDTO.getEntidad()));
      if (e != null && ALTA.equals(e.getEstadoEntidad().getNombreEstado())) {
        i.setEntidad(e);
        
@@ -102,7 +102,7 @@ import com.regent.dtos.IntimacionDTO;
  
    
    public void updateIntimacion(IntimacionDTO iDTO, String usuario) throws ParseException {
-     Intimacion i = iRepo.findById(Integer.valueOf(iDTO.getCodigoIntimacion())).orElse(new Intimacion());
+     Intimacion i = iRepo.findOne(Integer.valueOf(iDTO.getCodigoIntimacion()));
      
      if (i != null && SUSP.equals(i.getEntidad().getEstadoEntidad().getNombreEstado()) && 
        "A".equals(i.getEstado())) {
@@ -124,7 +124,7 @@ import com.regent.dtos.IntimacionDTO;
  
    
    public void cerrarIntimacion(IntimacionDTO iDTO, String usuario) throws ParseException {
-     Intimacion i = iRepo.findById(Integer.valueOf(iDTO.getCodigoIntimacion())).orElse(new Intimacion());
+     Intimacion i = iRepo.findOne(Integer.valueOf(iDTO.getCodigoIntimacion()));
      
      if (i != null && SUSP.equals(i.getEntidad().getEstadoEntidad().getNombreEstado()) && 
        "A".equals(i.getEstado())) {

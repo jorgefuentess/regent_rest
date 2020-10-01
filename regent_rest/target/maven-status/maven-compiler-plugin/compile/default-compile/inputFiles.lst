@@ -1,23 +1,161 @@
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\dtos\EstadoEntidadDTO.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\servicios\interfaces\EstadoEntidadService.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\util\Config.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\negocio\Entidad.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\servicios\interfaces\IntimacionService.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\util\FileUtilImpl.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\dtos\PresentacionEntidadDTO.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\negocio\Usuario.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\dtos\IntimacionDTO.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\util\interfaces\ExceptionUtil.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\RegentRestApplication.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\negocio\TipoEntidad.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\servicios\implementaciones\EstadoEntidadServiceImpl.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\negocio\EstadoEntidad.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\util\ExceptionUtilImpl.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\rest\EstadoEntidadController.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\util\interfaces\FileUtil.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\repositories\interfaces\EstadoEntidadRepository.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\repositories\interfaces\ExceptionRepository.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\negocio\InstitucionHabilitante.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\servicios\interfaces\PresentacionEntidadService.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\util\PathUrl.java
-C:\Users\RUBEN JARMA\Documents\JEFATURA_ESTADO\Proyectos\RegistroEntidades\desa2\regent_rest\src\main\java\com\regent\negocio\Rol.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/CodigoDescuento.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/pk/RolFuncionPk.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/EstadoEntidadDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/IntimacionRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/util/Config.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/EstadoSolicitudDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/DatosSafRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/RolServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/PresentacionIntimacion.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/PresentacionPorTipoEntidadService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/EntidadInfoDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/EstadoSolicitudServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/MotivoNotificacionController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/PresentacionEntidadRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/SolicitudEntidadRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/TipoEntidad.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/MailService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/EntidadLiteDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/EstadoEntidadService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/SolicitudEntidadService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/TipoEntidadRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/ResolucionDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/EstadoSolicitud.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/TipoPresentacionDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/CodigoDescuentoRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/SafRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/ConsultaSQL.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/ParametroRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/ResolucionController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/ResolucionRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/EntidadService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/Parametro.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/ConsultaSQLRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/EntidadServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/PresentacionEntidadDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/RegentRestApplication.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/TipoPresentacionServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/Funcion.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/ConsultaSQLDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/FuncionDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/ParametroDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/SafController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/util/JdbcConnection.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/ExceptionRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/TipoDescuentoTipoEntidadDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/TipoDescuentoSolicitudDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/security/RESTAuthenticationFailureHandler.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/PresentacionEntidad.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/util/ExceptionUtilImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/MotivoNotificacionRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/SolicitudBajaService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/ConsultaSQLServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/util/PathUrl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/SolicitudBajaServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/InstitucionHabilitanteRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/EstadoEntidadRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/RolFuncion.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/security/RESTAuthenticationEntryPoint.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/UsuarioController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/PresentacionEntidadService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/pk/TipoDescuentoTipoEntidadPk.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/pdf/PdfGenerator.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/FuncionService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/TipoDescuentoController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/ParametroServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/UsuarioServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/DatosSaf.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/RolRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/TipoDescuentoService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/IntimacionDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/ResolucionService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/Rol.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/MotivoNotificacionServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/ResolucionServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/ParametroController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/TipoDescuentoServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/PresentacionPorTipoEntidadRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/IntimacionController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/InstitucionHabilitanteController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/SolicitudBaja.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/security/hash/PasswordGenerator.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/security/RESTAuthenticationSuccessHandler.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/security/hash/SimpleMD5.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/FuncionServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/util/interfaces/ExceptionUtil.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/SafDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/ConsultaSQLService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/Usuario.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/UsuarioRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/ParametroService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/TipoDescuentoDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/pk/PresentacionPorTipoEntidadPk.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/IntimacionServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/InstitucionHabilitanteService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/util/FileUtilImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/Resolucion.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/FuncionRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/SolicitudEntidadDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/MotivoNotificacionDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/MailNotificacionService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/FuncionController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/PresentacionPorTipoEntidad.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/MailNotificacionServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/TipoDescuentoSolicitud.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/InstitucionHabilitante.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/TipoDescuentoTipoEntidad.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/TipoEntidadServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/TipoEntidadController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/PresentacionPorTipoEntidadServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/TipoPresentacionRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/SafServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/EntidadRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/InstitucionHabilitanteServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/SolicitudBajaDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/InstitucionHabilitanteDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/Saf.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/ConsultaSQLController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/pk/PresentacionIntimacionPk.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/TipoDescuentoRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/SolicitudEntidadController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/UsuarioService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/CertificacionDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/security/WebSecurityConfig.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/PresentacionEntidadServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/FuncionPorRolDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/pk/TipoDescuentoSolicitudPk.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/RolController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/MailServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/EntidadDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/Intimacion.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/MotivoNotificacion.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/OrganismoDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/TipoPresentacionService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/MotivoNotificacionService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/UsuarioDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/SolicitudBajaRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/RolService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/EstadoSolicitudService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/TipoPresentacionController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/TipoDescuentoSolicitudRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/RolDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/NotificacionCambioRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/NotificacionCambio.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/EstadoSolicitudController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/repositories/interfaces/EstadoSolicitudRepository.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/EstadoEntidadController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/Entidad.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/EstadoEntidad.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/PresentacionPorTipoEntidadController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/util/interfaces/FileUtil.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/rest/EntidadController.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/DatosSafDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/TipoPresentacion.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/SafService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/PresentacionPorTipoEntidadDTO.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/implementaciones/EstadoEntidadServiceImpl.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/TipoDescuento.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/negocio/SolicitudEntidad.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/IntimacionService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/servicios/interfaces/TipoEntidadService.java
+/Volumes/DatosHD/Users/javiermoreno/workspace/WS-Jefatura/RegistroEntidades/GIT/regent_rest/regent_rest/src/main/java/com/regent/dtos/TipoEntidadDTO.java

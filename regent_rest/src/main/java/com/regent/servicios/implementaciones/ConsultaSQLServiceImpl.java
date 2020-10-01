@@ -66,7 +66,7 @@ import com.regent.dtos.ConsultaSQLDTO;
  
    
    public void updateConsulta(ConsultaSQLDTO cDTO, String usuario) {
-     ConsultaSQL consulta = cRepo.findById(Integer.valueOf(cDTO.getCodigoConsulta().intValue())).orElse(new ConsultaSQL());
+     ConsultaSQL consulta = cRepo.findOne(cDTO.getCodigoConsulta());
      
      if (consulta != null) {
        consulta.setEstado("I".equals(cDTO.getEstado().trim()) ? "I" : "A");
@@ -84,7 +84,7 @@ import com.regent.dtos.ConsultaSQLDTO;
  
    
    public ConsultaSQLDTO getConsultaById(Integer codigoConsulta) {
-     ConsultaSQL c = cRepo.findById(codigoConsulta).orElse(new ConsultaSQL());
+     ConsultaSQL c = cRepo.findOne(codigoConsulta);
      
      if (c != null) {
        ConsultaSQLDTO cDTO = new ConsultaSQLDTO();
@@ -135,7 +135,7 @@ import com.regent.dtos.ConsultaSQLDTO;
  
    
    public Collection<Object[]> ejecutarConsulta(ConsultaSQLDTO cDTO, String usuario) {
-     ConsultaSQL c = cRepo.findById(cDTO.getCodigoConsulta()).orElse(new ConsultaSQL());
+     ConsultaSQL c = cRepo.findOne(cDTO.getCodigoConsulta());
      
      Boolean periodoDesde = Boolean.FALSE;
      Boolean periodoHasta = Boolean.FALSE;

@@ -12,14 +12,6 @@ package com.regent.servicios.implementaciones;
  import org.springframework.stereotype.Service;
  
  
- 
- 
- 
- 
- 
- 
- 
- 
  @Service
  public class RolServiceImpl
    implements RolService
@@ -36,13 +28,6 @@ package com.regent.servicios.implementaciones;
      } 
      return rolDTO;
    }
- 
- 
- 
- 
- 
- 
- 
    
    public Collection<RolDTO> getRolesActivos() {
      Collection<Object[]> rol = this.rRepo.getRolesActivos();
@@ -54,12 +39,6 @@ package com.regent.servicios.implementaciones;
      return rolDTO;
    }
  
- 
- 
- 
- 
- 
-   
    public void nuevoRol(RolDTO rDTO, String usuario) {
      String estado = "";
      if ("Activo".equals(rDTO.getEstado().trim()) || "A".equals(rDTO.getEstado().trim())) {
@@ -77,14 +56,8 @@ package com.regent.servicios.implementaciones;
      this.rRepo.nuevoRol(rol.getNombreRol(), rol.getEstado(), rol.getUsuario(), rol.getActualizado());
    }
  
- 
- 
- 
- 
- 
-   
    public void updateRol(RolDTO rDTO, String usuario) {
-     Rol rol = rRepo.findById(Integer.valueOf(rDTO.getCodigoRol())).orElse(new Rol());
+     Rol rol = rRepo.findOne(Integer.valueOf(rDTO.getCodigoRol()));
      
      rol.setEstado(rDTO.getEstado().trim());
      rol.setNombreRol(rDTO.getRol().trim().toUpperCase());

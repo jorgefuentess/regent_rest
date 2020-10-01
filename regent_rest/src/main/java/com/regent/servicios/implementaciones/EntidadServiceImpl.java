@@ -256,13 +256,13 @@ import com.regent.dtos.EntidadDTO;
      Entidad e = new Entidad();
      
      e.setDenominacion(eDTO.getDenominacion().trim());
-     e.setTipoEntidad(this.tRepo.findById(Integer.valueOf(eDTO.getCodigo_tipo_entidad().trim())).orElse(new TipoEntidad()));
+     e.setTipoEntidad(tRepo.findOne(Integer.valueOf(eDTO.getCodigo_tipo_entidad().trim())));
      e.setSolicitante(eDTO.getSolicitante().trim());
      e.setCaracterSolicitante(eDTO.getCaracterSolicitante().trim());
      e.setInstrumentoPersoneria(eDTO.getInstrumentoPersoneria().trim());
      e.seteMail(eDTO.geteMail().trim());
      e.setTelefono(!"".equals(eDTO.getTelefono().trim()) ? eDTO.getTelefono().trim() : "No relevado");
-     e.setInstitucionHabilitante(this.ihRepo.findById(Integer.valueOf(eDTO.getCodigo_institucion_habilitante().trim())).orElse(new InstitucionHabilitante()));
+     e.setInstitucionHabilitante(ihRepo.findOne(Integer.valueOf(eDTO.getCodigo_institucion_habilitante().trim())));
      e.setCuit(Long.valueOf(eDTO.getCuit().trim()));
      e.setNroRegHabilitante(eDTO.getNroRegHabilitante().trim());
      e.setDomicilioLegal(eDTO.getDomicilioLegal().trim());
@@ -349,14 +349,14 @@ import com.regent.dtos.EntidadDTO;
      if (u != null && !"ENTIDAD".equals(u.getRol().getNombreRol())) {
        
        Boolean cambio = Boolean.FALSE;
-       Entidad e = eRepo.findById(Integer.valueOf(eDTO.getCodigoEntidad())).orElse(new Entidad());
+       Entidad e = eRepo.findOne(Integer.valueOf(eDTO.getCodigoEntidad()));
        
        if (!eDTO.getDenominacion().trim().equals(e.getDenominacion())) {
          e.setDenominacion(eDTO.getDenominacion().trim());
          cambio = Boolean.TRUE;
        } 
        if (Integer.valueOf(eDTO.getCodigo_tipo_entidad().trim()) != e.getTipoEntidad().getCodigoTipoEntidad()) {
-         e.setTipoEntidad(tRepo.findById(Integer.valueOf(eDTO.getCodigo_tipo_entidad().trim())).orElse(new TipoEntidad()));
+         e.setTipoEntidad(tRepo.findOne(Integer.valueOf(eDTO.getCodigo_tipo_entidad().trim())));
          cambio = Boolean.TRUE;
        } 
        if (!eDTO.getSolicitante().trim().equals(e.getSolicitante())) {
@@ -383,7 +383,7 @@ import com.regent.dtos.EntidadDTO;
          cambio = Boolean.TRUE;
        } 
        if (Integer.valueOf(eDTO.getCodigo_institucion_habilitante().trim()) != e.getInstitucionHabilitante().getCodigoInstitucionHabilitante()) {
-         e.setInstitucionHabilitante(ihRepo.findById(Integer.valueOf(eDTO.getCodigo_institucion_habilitante().trim())).orElse(new InstitucionHabilitante()));
+         e.setInstitucionHabilitante(ihRepo.findOne(Integer.valueOf(eDTO.getCodigo_institucion_habilitante().trim())));
          cambio = Boolean.TRUE;
        } 
        if (!eDTO.getCuit().trim().equals(e.getCuit().toString())) {
@@ -539,7 +539,7 @@ import com.regent.dtos.EntidadDTO;
            return "EXTENSION";
          }
          
-         TipoPresentacion tp = tpRepo.findById(Integer.valueOf(codigoTipoPresentacion)).orElse(new TipoPresentacion());
+         TipoPresentacion tp = tpRepo.findOne(Integer.valueOf(codigoTipoPresentacion));
          if (!nombre.contains(tp.getNombreArchivo()) || !nombre.contains(usuario)) {
            return "NOMBRE_ARCHIVO";
          }
@@ -561,7 +561,7 @@ import com.regent.dtos.EntidadDTO;
          file.transferTo(dest);
  
          
-         TipoPresentacion tipoPresentacion1 = tpRepo.findById(Integer.valueOf(codigoTipoPresentacion)).orElse(new TipoPresentacion());
+         TipoPresentacion tipoPresentacion1 = tpRepo.findOne(Integer.valueOf(codigoTipoPresentacion));
          Entidad e = this.eRepo.findByCuit(Long.valueOf(usuario));
          if (tipoPresentacion1 != null) {
            PresentacionEntidad pe = new PresentacionEntidad();

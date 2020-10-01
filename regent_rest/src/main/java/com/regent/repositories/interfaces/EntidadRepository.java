@@ -13,7 +13,7 @@ public interface EntidadRepository extends CrudRepository<Entidad, Integer> {
   
   Entidad findByCuit(Long paramLong);
   
-  Entidad findByEmail(String paramString);
+  Entidad findByEMail(String paramString);
   
   @Query("SELECT e FROM Entidad e ORDER BY e.codigoEntidad desc ")
   Collection<Entidad> getAllEntidadCompleta();
@@ -29,4 +29,6 @@ public interface EntidadRepository extends CrudRepository<Entidad, Integer> {
   
   @Query(value = "SELECT max(e.cuid) FROM entidades e ", nativeQuery = true)
   Integer getMaxCUID();
+
+
 }
